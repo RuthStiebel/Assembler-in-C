@@ -7,6 +7,7 @@ The format of the output files is as follows:
   '.obj' file:
       At the top of the file will be printed the value of the IC (instruction counter) and the value of the DC (data counter).
       After that, the data will appear encoded in 64bits.
+      
   '.ent' file:
 
 
