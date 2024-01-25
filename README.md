@@ -9,6 +9,7 @@ The format of the output files is as follows:
       After that, the data will appear encoded in 64bits.
       
   '.ent' file:
+    The file will print two colomns: The left one would be the address of the label defined in the file and the right on would print the name of said label.
 
 
   '.ext file:'
