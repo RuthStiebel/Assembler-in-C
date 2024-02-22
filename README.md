@@ -13,3 +13,5 @@ The format of the output files is as follows:
 
 
   '.ext file:'
+   The file will print two colomns: The left one would be the addresses of the times the label was called and the right on would print the name of said label.
+
