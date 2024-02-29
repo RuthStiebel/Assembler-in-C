@@ -15,4 +15,4 @@ The format of the output files is as follows:
   '.ext file:'
    The file will print two colomns: The left one would be the addresses of the times the label was called and the right on would print the name of said label.
 
-If, in the original file, there are no labels with a '.ext' prefix or no labels are defined in the file the the '.ext' and '.ent files will not be configured, respectively.
+If, in the original file, there are no labels with a '.ext' prefix or no labels are defined in the file, then the '.ext' and '.ent files will not be configured, respectively.
