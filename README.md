@@ -16,3 +16,8 @@ The format of the output files is as follows:
    The file will print two colomns: The left one would be the addresses of the times the label was called and the right on would print the name of said label.
 
 If, in the original file, there are no labels with a '.ext' prefix or no labels are defined in the file, then the '.ext' and '.ent files will not be configured, respectively.
+
+The assembler is built of three main parts:
+1. The preprocesser - this expands macros and removes comment lines in the original file. At the end of this stage the original '.as' file will be converted into a '.am' file.
+2. The parser - this parses the file a line at a time and updates the instruction counter, data counter and respective arrays accordingly (this will later allow us to create the output files correctly).
+3. The third and last part is when the output files are generated as explained above.
