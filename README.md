@@ -21,3 +21,15 @@ The assembler is built of three main parts:
 1. The preprocesser - this expands macros and removes comment lines in the original file. At the end of this stage the original '.as' file will be converted into a '.am' file.
 2. The parser - this parses the file a line at a time and updates the instruction counter, data counter and respective arrays accordingly (this will later allow us to create the output files correctly).
 3. The third and last part is when the output files are generated as explained above.
+
+The code files are as following:
+'main.c' - this file runs the program and all the sub-methods
+'preprocessor.h' (and matching code file) - this is the preprocessor
+'parser.h' (and matching code file) - this is the parser and it uses the following files:
+   'directives.h' (and matching code file) - saves and parses the directives
+   'instructions.h' (and matching code file) - saves and parses the instructions 
+   'labels.h' (and matching code file) - saves the labels according to how they are defined in the file
+'utils.h' - defines all the variables used 
+'print.h' (and matching code file) - handles all the different print options
+'makefile' - the project's makefile
+   
